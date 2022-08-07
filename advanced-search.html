@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="css/advanced-styles.css">
+</head>
+
+<body>
+    <div class="top-main">
+        <div class="header">
+            <div class="header-components">
+                <div class="header-logo">
+                    <img class="logo" src="images/logo.png">
+                </div>
+                <div class="header-search">
+                    <a href="index.html">Google Search</a>
+                </div>
+            </div>
+        </div>
+        <div class="adv-bar">Advanced Search</div>
+        <div class="line-break"></div>
+        <form action="https://www.google.com/search">
+            <div class="find-pages">
+                <div class="find-rows">
+                    <div class="col1-header">
+                        <label>Find pages with...</label>
+                    </div>
+                    <div class="col2-header">&nbsp;</div>
+                    <div class="col3-header">
+                        <label>To do this in the search box.</label>
+                    </div>
+                </div>
+                <div class="find-rows">
+                    <div class="col1">
+                        <label>all these words:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" name="as_q">
+                    </div>
+                    <div class="col3">
+                        Type the important words: <span>tri-colour rat terrier</span>
+                    </div>
+                </div>
+                <div class="find-rows">
+                    <div class="col1">
+                        <label>this exact word or phrase:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" name="as_epq">
+                    </div>
+                    <div class="col3">
+                        Put exact words in quotes: <span>"rat terrier"</span>
+                    </div>
+                </div>
+                <div class="find-rows">
+                    <div class="col1">
+                        <label>any of these words:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" name="as_oq">
+                    </div>
+                    <div class="col3">
+                        Type <span>OR</span> between all words you want: <span>miniature OR standard</span>
+                    </div>
+                </div>
+                <div class="find-rows">
+                    <div class="col1">
+                        <label>none of these words:</label>
+                    </div>
+                    <div class="col2">
+                        <input type="text" class="as_eq">
+                    </div>
+                    <div class="col3">
+                        Put a minus sign just before words that you don't want: <span>-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+                <div class="find-rows">
+                    <div class="col1">
+                        <label>numbers ranging from:</label>
+                    </div>
+                    <div class="col2-split">
+                        <div class="input-split">
+                            <input type="text">
+                        </div>
+                        <div class="to">to</div>
+                        <div class="input-split">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="col3">
+                        Put two full stops between the numbers and add a unit of measurement: <span>10..35 kg,
+                            £300..£500,
+                            2010..2011</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="line-break"></div>
+    <div class="find-pages">
+        <div class="find-rows">
+            <div class="col1-header">
+                <label>Then narrow your results by...</label>
+            </div>
+            <div class="col2-header">&nbsp;</div>
+            <div class="col3-header">
+                <label>&nbsp;</label>
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label>language:</label>
+            </div>
+            <div class="col2">
+                <select class="drop-menu">
+                    <option>any language</option>
+                    <option value="AF">Portugal</option>
+                    <option value="AX">South Korea</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">Italy</option>
+                    <option value="AD">Switzerland</option>
+                    <option value="AO">Australia</option>
+                </select>
+            </div>
+            <div class="col3">
+                Find pages in the language that you select.
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label>region:</label>
+            </div>
+            <div class="col2">
+                <select class="drop-menu">
+                    <option>any region</option>
+                    <option value="AF">Portugal</option>
+                    <option value="AX">South Korea</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">Italy</option>
+                    <option value="AD">Switzerland</option>
+                    <option value="AO">Australia</option>
+                </select>
+            </div>
+            <div class="col3">
+                Find pages published in a particular region.
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label>last update:</label>
+            </div>
+            <div class="col2">
+                <select class="drop-menu">
+                    <option>anytime</option>
+                    <option value="p24">past 24 hours</option>
+                    <option value="pw">past week</option>
+                    <option value="pm">pat month</option>
+                    <option value="py">past year</option>
+                </select>
+            </div>
+            <div class="col3">
+                Find pages updated within the time that you specify.
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label>site or domain:</label>
+            </div>
+            <div class="col2">
+                <input type="text">
+            </div>
+            <div class="col3">
+                Search one site (like <span>wikipedia.org</span>) or limit your results to a domain like <span>.edu,
+                    .org or .gov</span>
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label>terms appearing:</label>
+            </div>
+            <div class="col2">
+                <select class="drop-menu">
+                    <option>anywhere in the page</option>
+                    <option value="title">in the title of the page</option>
+                    <option value="text">in the text of the page</option>
+                    <option value="url">in the URL of the page</option>
+                    <option value="links">in links to the page</option>
+                </select>
+            </div>
+            <div class="col3">
+                Search for terms in the whole page, page title or web address, or links to the page you're looking for.
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label class="links">SafeSearch:</label>
+            </div>
+            <div class="col2">
+                <select class="drop-menu">
+                    <option>Hide explicit results</option>
+                    <option value="exp">Show explicit results</option>
+                </select>
+            </div>
+            <div class="col3">
+                Tell SafeSearch whether to filter sexually explicit content.
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label>file type:</label>
+            </div>
+            <div class="col2">
+                <select class="drop-menu">
+                    <option>any format</option>
+                    <option value="pdf">Adobe Acrobat PDF (.pdf)</option>
+                    <option value="xls">Microsoft Excel (.xls)</option>
+                    <option value="doc">Microsoft Word (.doc)</option>
+                </select>
+            </div>
+            <div class="col3">
+                Find pages in the format that you prefer.
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">
+                <label>usage rights:</label>
+            </div>
+            <div class="col2">
+                <select class="drop-menu">
+                    <option>not filtered by license</option>
+                    <option value="fus">free to use or share</option>
+                    <option value="fusc">free to use or share, even commercially</option>
+                    <option value="fusm">free to use, share or modify</option>
+                </select>
+            </div>
+            <div class="col3">
+                Find pages that you are free to use yourself.
+            </div>
+        </div>
+        <div class="find-rows">
+            <div class="col1">&nbsp;</div>
+            <div class="col2-button">
+                <input class="button" type="submit" name="btnK" value="Advanced Search">
+            </div>
+            <div class="col3"></div>
+        </div>
+        </form>
+    </div>
+    <div class="line-break"></div>
+    <div class="also-section">
+        <div class="also-text">You can also...</div>
+        <div class="links">Find pages that are similar to a URL</div>
+        <div class="links">Search pages that you've visited</div>
+        <div class="links">Use operators in the search box</div>
+        <div class="links">Customise your search settings</div>
+    </div>
+    </div>
+    <div class="footer-div">
+        <div class="CH">Switzerland</div>
+        <div class="bt1">
+            <p>Help</p>
+            <p>Privacy</p>
+            <p>Terms</p>
+        </div>
+
+</body>
+
+</html>

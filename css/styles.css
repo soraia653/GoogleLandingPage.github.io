@@ -1,0 +1,227 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+.header-div a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+}
+
+.header-div a:hover {
+    text-decoration: underline;
+}
+
+.image-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 580px);
+    min-height: 150px;
+    max-height: 250px;
+    height: calc(100% - 560px);
+}
+
+.image-container {
+    max-height: 230px;
+    margin-top: auto;
+}
+
+.google-logo {
+    height: 100%;
+}
+
+.search-div {
+    height: 180px;
+}
+
+.search-bar-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar-resize {
+    display: flex;
+    height: 40px;
+    max-width: 584px;
+    flex: 1;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.search-bar-resize:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+
+}
+
+.search-box {
+    width: 100%;
+    border: none;
+    margin-left: 15px;
+}
+
+.search-box:focus-visible {
+    outline: none;
+}
+
+.search-lupa {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.lupa {
+    height: 15px;
+}
+
+.search-mic {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.mic {
+    height: 26px;
+}
+
+.buttons-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    height: 70px;
+}
+
+.button {
+    margin-right: 10px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+}
+
+.lang-div {
+    display: block;
+    justify-content: center;
+    column-gap: 8px;
+    flex: 1;
+    font-size: 12px;
+}
+
+.lang-div-resize {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    color: #4d5156;
+    font-size: 13px;
+}
+
+.lang {
+    margin: 0;
+    color: #1a0dab;
+}
+
+.lang:hover {
+    text-decoration: underline;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    background-color: #f2f2f2;
+}
+
+.CH {
+
+    color: #70757a;
+    padding: 15px 30px;
+    font-size: 14px;
+    border-bottom: 1px solid #dadce0;
+    ;
+}
+
+.bottom-foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.bt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.bt1,
+.bt2,
+.bt3 {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #70757a;
+}
+
+.bt1:hover {
+    text-decoration: underline;
+}
+
+.bt2 p:hover {
+    text-decoration: underline;
+}
+
+.bt3 p:hover {
+    text-decoration: underline;
+}
+
+.bt2 {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+    order: 1;
+}
+
+.bt3 {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    order: 2;
+}
